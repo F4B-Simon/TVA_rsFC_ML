@@ -1,1 +1,3 @@
 # TVA_rsFC_ML
+
+The following condensed Python code documents the core analyses (Python 3.14, scikit-learn 1.8, NumPy, SciPy, statsmodels). Inputs are arrays of the 136 rsFC features (participants × features) and binary labels (1 = high, 0 = low performer; −1 = middle at follow-up). Default arguments correspond to the settings reported in the Methods. Step A was originally run in the KNIME Analytics Platform; Supplementary Code S2 is the Python implementation of the same procedure, which was repeated within each training fold in step B. Blocks build on each other and are meant to be read in order. Complete scripts and the KNIME workflow are available from the corresponding author.
